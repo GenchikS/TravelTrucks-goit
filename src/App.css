@@ -1,0 +1,51 @@
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --main: #101828;
+	--text: #475467;
+	--white: #fff;
+	--inputs: #f7f7f7;
+	--badges: #f2f4f7;
+	--gray: #6c717b;
+	--gray-light: #dadde1;
+	--button-red: #e44848;
+	--button-hover-red: #d84343;
+	--rating: #ffc531;
+	--button-blue: #3470ff;
+	--button-hover-blue: #0b44cd;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  color: var(--main);
+  text-decoration: inherit;
+}
+
+a:hover{
+    color: var(--button-hover-red);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+

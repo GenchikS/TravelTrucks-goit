@@ -1,0 +1,33 @@
+.img{
+    max-width: 1440px;
+    height: 696px;
+    background-image: url(../../img/picture.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 260px 790px 260px 64px;
+    /* padding-top: 260px;
+    padding-left: 64px; */
+}
+
+.container{
+    width: 571px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 67%;
+    color: var(--inputs);
+    padding-bottom: 16px;
+}
+
+.text{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 133%;
+    color: var(--inputs);
+    padding-bottom: 40px;
+}
