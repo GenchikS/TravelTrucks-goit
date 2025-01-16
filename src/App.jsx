@@ -6,16 +6,15 @@ import HomePage from "./pages/HomePage/HomePage.jsx"
 import { Route, Routes } from 'react-router-dom';
 import Catalog from './components/Catalog/Catalog.jsx';
 
-function App() {
-  // const [count, setCount] = useState(0)
 
+function App() {
   return (
     <div>
       <Layout>
         <Suspense fallback={null}></Suspense>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/catalog" element={<Catalog />} />
+          <Route path="/catalog" element={<Catalog/>} />
         </Routes>
       </Layout>
     </div>
