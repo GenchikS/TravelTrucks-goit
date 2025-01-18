@@ -1,11 +1,6 @@
-// import CardRender from "./CardRender/CardRender.jsx";
-// import NoCard from "./NoCard/NoCard.jsx";
+import CardRender from "./CardRender/CardRender.jsx";
+import NoCard from "./NoCard/NoCard.jsx";
 
-// export default function ListCatalog() {
-// return (
-//     <div>
-//       {/* {console.log(items)} */}
-//       {items.length ? <CardRender /> : <NoCard />}
-//     </div>
-//   );
-// }
+export default function ListCatalog({items}) {
+    return (items.length ? <CardRender items={ items} /> : <NoCard />)
+}

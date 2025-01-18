@@ -1,8 +1,15 @@
 .containerCard{
-    
+    margin-left: 64px;
+    list-style-type: none;
+    /* width: 100% */
 }
 
-.card{
+.list{
     display: flex;
-
+    border: 1px solid var(--gray-light);
+    border-radius: 20px;
+    padding: 24px;
+    width: 100%;
+    margin-bottom: 32px;
 }
+
